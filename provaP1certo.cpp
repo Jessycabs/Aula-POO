@@ -1,76 +1,67 @@
 #include <iostream>
 
-using namespace sdt;
+using namespace std;
 
 int a, b, c, d, i, j;
 
-int main(){
+int main() {
+    i = 1;
 
-//gl = 0;
-//gc = 1;
-i = 1;
-
-cout << ">> inicio prova P1";
-cout << "informe 4 valores: " << endl;
-cout << "valor 1: "
+cout << ">> Inicio prova P1" << endl;
+cout << "Informe 4 valores: " << endl;
+cout << "Valor 1: ";
 cin >> a;
-cout << "valor 2: "
+cout << "Valor 2: ";
 cin >> b;
-cout << "valor 3: "
+cout << "Valor 3: ";
 cin >> c;
-cout << "valor 4: "
+cout << "Valor 4: ";
 cin >> d;
 
+    cout << "Total de linhas: 4" << endl;
+    cout << "Total de colunas: 5" << endl;
 
-cout << "total de linhas: 4";
-cout << "total de colunas: 5";
-
-
-
-do
     j = 0;
-    cout << endl;
-    cout << i << "|";
-    if (a != 0){
-    cout << " * ";
-    }
-    j = j + 1;
-while (j = a)
-    ++i
 
-do
+    cout << i << "|";
+    while (j < a) {
+        cout << " * ";
+        j++;
+    }
+    cout << endl;
+    i++;
+
     j = 0;
-    cout << endl;
-    cout << i << "|";
-    if (b != 0){
-    cout << " * ";
-    }
-    j = j + 1;
-while (j = b)
-    ++i
 
-do
+    cout << i << "|";
+    while (j < b) {
+        cout << " * ";
+        j++;
+    }
+    cout << endl;
+    i++;
+
     j = 0;
-    cout << endl;
-    cout << i << "|";
-    if (c != 0){
-    cout << " * ";
-    }
-    j = j + 1;
-while (j = c)
-    ++i
 
-do
+    cout << i << "|";
+    while (j < c) {
+        cout << " * ";
+        j++;
+    }
+    cout << endl;
+    i++;
+
     j = 0;
-    cout << endl;
-    cout << i << "|";
-    if (d != 0){
-    cout << " * ";
-    }
-    j = j + 1;
-while (j = d)
-    ++i
 
-    cout << ">> Fim: prova P1"
-return 0;
+    cout << i << "|";
+    while (j < d) {
+        cout << " * ";
+        j++;
+    }
+    cout << endl;
+
+    cout << "+  -  -  -  -  -" << endl;
+    cout << "0  1  2  3  4  5";
+    cout << endl << ">> Fim: prova P1" << endl;
+    return 0;
 }
